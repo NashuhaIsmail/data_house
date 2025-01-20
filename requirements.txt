@@ -1,4 +1,4 @@
-sscikit-learn==1.6.1
+scikit-learn==1.6.1
 seaborn==0.13.2
 pandas>=2.2.3
 streamlit==1.41.1
