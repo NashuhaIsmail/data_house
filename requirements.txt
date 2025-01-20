@@ -2,6 +2,5 @@ sscikit-learn==1.6.1
 seaborn==0.13.2
 pandas>=2.2.3
 streamlit==1.41.1
-stream-read-xbrl
 plotly==5.24.1
 matplotlib==3.10.0
