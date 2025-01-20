@@ -7,13 +7,13 @@ import seaborn as sns
 @st.cache_data
 def load_data():
     # Update paths to the CSV files generated from the previous analysis script
-    profitable = pd.read_csv('C:\\Users\\nesa.nashuha\\OneDrive - Habib Jewels Sdn Bhd\\Sr DSC\\extract from xbrl\\output_analysis\\profitable_companies.csv')
-    strong_financials = pd.read_csv('C:\\Users\\nesa.nashuha\\OneDrive - Habib Jewels Sdn Bhd\\Sr DSC\\extract from xbrl\\output_analysis\\strong_financials.csv')
-    efficient = pd.read_csv('C:\\Users\\nesa.nashuha\\OneDrive - Habib Jewels Sdn Bhd\\Sr DSC\\extract from xbrl\\output_analysis\\efficient_companies.csv')
-    manageable_debt = pd.read_csv('C:\\Users\\nesa.nashuha\\OneDrive - Habib Jewels Sdn Bhd\\Sr DSC\\extract from xbrl\\output_analysis\\manageable_debt_companies.csv')
-    growth = pd.read_csv('C:\\Users\\nesa.nashuha\\OneDrive - Habib Jewels Sdn Bhd\\Sr DSC\\extract from xbrl\\output_analysis\\positive_working_capital.csv')
-    low_admin = pd.read_csv('C:\\Users\\nesa.nashuha\\OneDrive - Habib Jewels Sdn Bhd\\Sr DSC\\extract from xbrl\\output_analysis\\low_admin_expense_companies.csv')
-    active = pd.read_csv('C:\\Users\\nesa.nashuha\\OneDrive - Habib Jewels Sdn Bhd\\Sr DSC\\extract from xbrl\\output_analysis\\active_companies.csv')
+    profitable = pd.read_csv('output_analysis/profitable_companies.csv')
+    strong_financials = pd.read_csv('output_analysis/strong_financials.csv')
+    efficient = pd.read_csv('output_analysis/efficient_companies.csv')
+    manageable_debt = pd.read_csv('output_analysis/manageable_debt_companies.csv')
+    growth = pd.read_csv('output_analysis/positive_working_capital.csv')
+    low_admin = pd.read_csv('output_analysis/low_admin_expense_companies.csv')
+    active = pd.read_csv('output_analysis/active_companies.csv')
     return {
         "Profitable Companies": profitable,
         "Strong Financials": strong_financials,
